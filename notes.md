@@ -55,4 +55,4 @@
 
 ## 3. Note
   1. Based on this setup Kafka runs on Port: `9092`
-  2. We have updated the Kafka configuration to allow Maximum Message Bytes to 10 MB (`KAFKA_MESSAGE_MAX_BYTES: 10485760` and `KAFKA_REPLICA_FETCH_MAX_BYTES: 10485760`), So that Larger size Image Base64 can be stored in the Queue.
+  2. We have updated the Kafka configuration to allow Maximum Message Bytes to 10 MB (`KAFKA_MESSAGE_MAX_BYTES: 10485760` and `KAFKA_REPLICA_FETCH_MAX_BYTES: 10485760`), So that Large size Image Base64 can be stored in the Queue.
